@@ -1,0 +1,17 @@
+body {
+    background-color: dimgray;
+    margin: 0 auto;
+}
+img {
+  width: 100%;
+  display: block;
+  padding-bottom: 30px;
+}
+section img {
+    background-color: black;
+    width: 20%;
+    display: inline-block;
+    margin: 65px;
+    padding: 15px;
+    border-radius: 50%;
+}
