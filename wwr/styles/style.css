@@ -149,7 +149,7 @@ main section img {
 }
 #background {
     background-color: #00b4d8;
-    grid-column: 1-11;
+    grid-column: 1/11;
     grid-row: 4/9;
 }
 .msg
