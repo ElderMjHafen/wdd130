@@ -1,0 +1,105 @@
+img {
+    width: 300px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+body {
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+}
+div {
+    background-color: white;
+    max-width: 300px;
+    margin: auto;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+#whitespace {
+    padding-bottom: 30px;
+}
+h1 {
+    font-size: medium;
+    padding-top: 10%;
+    padding-bottom: 0%;
+}
+h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0%;
+}
+h3 {
+    font-size: 18px;
+    font-weight: lighter;
+    color: rgb(98, 98, 98);
+    width: 225px;
+    padding-left: 40px;
+}
+p {
+    padding-left: 15%;
+    padding-right: 15%;
+    width: 20px;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+}
+footer {
+    display: grid;
+    grid-row: 4/5;
+    background-color: rgb(60, 84, 150);
+    width: 300px;
+    height: 80px;
+    color: aliceblue;
+    margin: 0 auto;
+    text-align: center;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.read-pg {
+    background-color: rgba(255, 255, 255, 0);
+    grid-column: 1/2;
+    width: 100px;
+    min-height: 50px;
+    font-size: 20px;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    border-right: grey 1px solid;
+}
+.views {
+    background-color: rgba(255, 255, 255, 0);
+    grid-column: 2/3;
+    width: 100px;
+    min-height: 50px;
+    font-size: 20px;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+}
+.comments {
+    background-color: rgba(255, 255, 255, 0);
+    grid-column: 3/4;
+    width: 100px;
+    min-height: 50px;
+    font-size: 20px;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    border-left: grey 1px solid;
+}
+.mini {
+    font-size: 10px;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 0%;
+}
+.read-pg, .views, .comments {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}

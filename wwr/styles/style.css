@@ -237,6 +237,137 @@ footer .social img {
     grid-row: 2/3;
 }
 
+/**Page 2**/
+h3 {
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-size: 75px;
+    padding: 1em;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.gps {
+    display: grid;
+    grid-template-columns: 10fr;
+    margin-top: -100px;
+    margin-bottom: 150px;
+    margin: auto;
+    text-align: center;
+    background-color: #00b4d8;
+}
+/**Salmon River**/
+.sal_riv {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: 335px;
+}
+.salmon_river
+ {
+    background-color: #2ac4f7;
+    line-height: .75em;
+    color: #caf0f8;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    box-shadow: 5px 5px 10px #6f7364;
+    opacity: 0.825;
+    width: 550px;
+    height: 400px;
+    justify-content: center;
+    justify-items: center;
+}
+.salmon_river h2 {
+    line-height: 1em;
+}
+.salmon_river p {
+    font-family: Raleway, Arial, sans-serif;
+    font-size: .75em;
+    font-weight: bold;
+    text-decoration: none;
+    color: #ffffff;
+    text-align: center;
+    padding-bottom: 5px;
+}
+.sal_map {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    height: 10px;
+}
+/**Desolation and Grey Canon**/
+.des {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    width: 335px;
+}
+.desolation
+ {
+    background-color: #2ac4f7;
+    line-height: .75em;
+    color: #caf0f8;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    box-shadow: 5px 5px 10px #6f7364;
+    opacity: 0.825;
+    width: 550px;
+    height: 400px;
+    justify-content: center;
+    justify-items: center;
+}
+.desolation h2 {
+    line-height: 1em;
+}
+.desolation p {
+    font-family: Raleway, Arial, sans-serif;
+    font-size: .75em;
+    font-weight: bold;
+    text-decoration: none;
+    color: #ffffff;
+    text-align: center;
+    padding-bottom: 5px;
+}
+.des_map {
+    grid-column: 3/4;
+    grid-row: 2/3;
+    width: 10px;
+}
+/**Grand Canyon**/
+.grand {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    width: 335px;
+}
+.grand_canyon
+ {
+    background-color: #2ac4f7;
+    line-height: .75em;
+    color: #caf0f8;
+    grid-column: 2/3;
+    grid-row: 3/4;
+    box-shadow: 5px 5px 10px #6f7364;
+    opacity: 0.825;
+    width: 550px;
+    height: 400px;
+    justify-content: center;
+    justify-items: center;
+}
+.grand_canyon h2 {
+    line-height: 1em;
+}
+.grand_canyon p {
+    font-family: Raleway, Arial, sans-serif;
+    font-size: .75em;
+    font-weight: bold;
+    text-decoration: none;
+    color: #ffffff;
+    text-align: center;
+    padding-bottom: 5px;
+}
+.grand_map {
+    grid-column: 3/4;
+    grid-row: 3/4;
+    width: 50px;
+}
 
 /**media query**/
 @media screen and (max-width: 900px) {
