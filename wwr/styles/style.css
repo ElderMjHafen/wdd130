@@ -368,15 +368,16 @@ h3 {
     grid-row: 3/4;
     width: 50px;
 }
+
 /**form**/
 form {
-    /* Center the form on the page */
-    margin: 0 auto;
-    width: 400px;
-    /* Form outline */
-    padding: 1em;
-    border: 1px solid #ccc;
-    border-radius: 1em;
+  /* Center the form on the page */
+  margin: 0 auto;
+  width: 400px;
+  /* Form outline */
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 1em;
 }
 
 ul {
@@ -431,6 +432,7 @@ button {
        between the labels and their text fields */
     margin-left: 0.5em;
 }
+
 #feedback {
     background-color: antiquewhite;
     position: absolute;
