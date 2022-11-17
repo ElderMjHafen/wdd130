@@ -378,6 +378,7 @@ form {
   padding: 1em;
   border: 1px solid #ccc;
   border-radius: 1em;
+  background-color: #2ac4f7;
 }
 
 ul {
@@ -435,13 +436,14 @@ button {
 
 #feedback {
     background-color: antiquewhite;
-    position: absolute;
+    color: #000;
+    position:absolute;
     top: 0;
     left: 0;
     right: 0;
     padding: .5em;
     /* make this element invisible until we are ready for it */
-    display: none;      
+    display: none;
 }
 .moveDown {
     margin-top: 3em;
