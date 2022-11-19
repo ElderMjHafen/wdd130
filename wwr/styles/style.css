@@ -261,7 +261,8 @@ h3 {
 .sal_riv {
     grid-column: 1/2;
     grid-row: 1/2;
-    width: 335px;
+    width: 400px;
+    padding-left: 10px;
 }
 .salmon_river
  {
@@ -272,7 +273,7 @@ h3 {
     grid-row: 1/2;
     box-shadow: 5px 5px 10px #6f7364;
     opacity: 0.825;
-    width: 550px;
+    width: 440px;
     height: 400px;
     justify-content: center;
     justify-items: center;
@@ -293,12 +294,14 @@ h3 {
     grid-column: 3/4;
     grid-row: 1/2;
     height: 10px;
+    padding-left: 10px;
 }
 /**Desolation and Grey Canon**/
 .des {
     grid-column: 1/2;
     grid-row: 2/3;
-    width: 335px;
+    width: 400px;
+    padding-left: 10px;
 }
 .desolation
  {
@@ -309,7 +312,7 @@ h3 {
     grid-row: 2/3;
     box-shadow: 5px 5px 10px #6f7364;
     opacity: 0.825;
-    width: 550px;
+    width: 440px;
     height: 400px;
     justify-content: center;
     justify-items: center;
@@ -330,12 +333,14 @@ h3 {
     grid-column: 3/4;
     grid-row: 2/3;
     width: 10px;
+    padding-left: 10px;
 }
 /**Grand Canyon**/
 .grand {
     grid-column: 1/2;
     grid-row: 3/4;
-    width: 335px;
+    width: 400px;
+    padding-left: 10px;
 }
 .grand_canyon
  {
@@ -346,7 +351,7 @@ h3 {
     grid-row: 3/4;
     box-shadow: 5px 5px 10px #6f7364;
     opacity: 0.825;
-    width: 550px;
+    width: 440px;
     height: 400px;
     justify-content: center;
     justify-items: center;
@@ -367,6 +372,7 @@ h3 {
     grid-column: 3/4;
     grid-row: 3/4;
     width: 50px;
+    padding-left: 10px;
 }
 
 /**form**/
