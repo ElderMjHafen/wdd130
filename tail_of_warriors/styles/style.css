@@ -5,11 +5,6 @@
     max-width: 1600px;
 }
 /**header**/
-nav a {
-    text-align: center;
-    background-color: #0E060A;
-    text-decoration: none;
-}
 #title {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
@@ -47,7 +42,10 @@ body {
 h1 {
     font-family: "IM Fell French Canon SC", MedievalSharp, serif;
     font-size: 50px;
-    margin: 0px;
+    margin: 5px;
+    padding-left: 10px;
+    padding-right: 100px;
+    padding-top: 10px;
     color: #E5E6EE;
 }
 h2 {
@@ -56,32 +54,37 @@ h2 {
   }
 header {
     background-color: #0E060A;
-    display: grid;
+    display: flex;
     grid-template-columns: 500px auto;
     opacity: 80%;
 }
 #logo_link {
     text-decoration: none;
     color: #E3E5E6;
-    padding-top: 5px;
-    justify-self: left;
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 10px;
 }
 .logo {
     width: 80px;
-    padding: 1px;
-    justify-content: center;
-    justify-items: center;
+    margin: auto 0;
+    text-align: center;
 }
 nav {
     display: flex;
     justify-content: space-around;
+    padding-left: 100px;
+    padding-bottom: 14px;
 }
 nav a {
+    background-color: #0E060A;
     text-decoration: none;
     color: #E5E6EE;
+    margin: auto 0;
     text-align: center;
-    padding-top: 35px;
-    
+    padding-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 /**div**/
@@ -127,29 +130,30 @@ main section img {
     grid-row: 2/3;
 }
 footer {
-    background-color: #E5E6EE;
+    background-color: #232938;
     padding: 25px 50px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     text-decoration: none;
-    color: #232938;
+    color: #E5E6EE;
     text-align: center;
     
 }
 footer a {
-    background-color: #E5E6EE;
+    background-color:#232938;
     text-decoration: none;
 }
 footer a:hover {
-    background-color: #232938;
+    background-color:#E5E6EE;
     
 }
 .icon {
     width: 80px;
     text-decoration: none;
     color: #E3E5E6;
-    text-align: center;
+    justify-content: center;
+    justify-items: center;
     padding-top: 10px;
 }
 footer p {
@@ -166,4 +170,43 @@ footer .social img {
 }
 .location-card, .chara-card{
     grid-row: 2/3;
+}
+
+/**media query**/
+@media screen and (max-width: 900px) {
+    #title, .home-grid {
+        display: block;
+        height: auto;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    #title {
+        margin-top: 0;
+    }
+    #title-msg {
+        margin-top: 0;
+    }
+    #title-msg h4 {
+        display: none;
+    }
+    h1 {
+        font-size: 25px;
+        color: #E5E6EE;
+        padding-right: 30px;
+    }
+    .chara-card, .location-card { 
+        margin: 50px auto;
+        width: 60%;
+    }
+    #background {
+        display: none;
+    }
+    footer {
+        margin-top: 25px;
+    }
 }
