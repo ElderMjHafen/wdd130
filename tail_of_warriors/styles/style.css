@@ -51,13 +51,18 @@ h1 {
 h2 {
     font-family: Lato, Helvetica, sans-serif;
     margin: 0;
-  }
-header {
-    background-color: #0E060A;
-    display: flex;
-    grid-template-columns: 500px auto;
-    opacity: 80%;
 }
+h3 {
+    font-family: "IM Fell French Canon SC", MedievalSharp, serif;
+    font-size: 50px;
+    margin: 5px;
+    padding-left: 10px;
+    padding-right: 100px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    color: #232938;
+}
+
 #logo_link {
     text-decoration: none;
     color: #E3E5E6;
@@ -70,27 +75,45 @@ header {
     margin: auto 0;
     text-align: center;
 }
+/**div**/
+
+/* The navigation bar */
+header {
+    overflow: hidden;
+    background-color: #0E060A;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+     
+    display: flex;
+    z-index: 1;
+}
 nav {
     display: flex;
-    justify-content: space-around;
     padding-left: 100px;
     padding-bottom: 14px;
-}
-nav a {
     background-color: #0E060A;
-    text-decoration: none;
+}
+
+/* Links inside the navbar */
+nav a {
+    float: right;
+    display: block;
     color: #E5E6EE;
     margin: auto 0;
     text-align: center;
-    padding-top: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
+    padding: 14px 16px;
+    text-decoration: none;
 }
-
-/**div**/
 nav a:hover {
     background-color: #232938;
 }
+/* Main content */
+.main {
+    margin-top: 30px; /* Add a top margin to avoid content overlay */
+  }
+
+
 /**main**/
 .home-grid {
     display: grid;
@@ -105,8 +128,23 @@ nav a:hover {
     grid-column: 2/4;
     width: 70%;
 }
-.location-card{
+.chara-card2 {
+    grid-row: 2/4;
     grid-column: 5/7;
+    width: 70%;
+}
+.chara-card3 {
+    grid-row: 2/4;
+    grid-column: 8/10;
+    width: 70%;
+}
+.location-card{
+    grid-column: 4/6;
+    width: 70%;
+}
+.location-card2{
+    grid-row: 2/4;
+    grid-column: 7/9;
     width: 70%;
 }
 
@@ -130,12 +168,14 @@ main section img {
     grid-row: 2/3;
 }
 footer {
-    background-color: #232938;
-    padding: 25px 50px;
+    padding: 15px 15px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     text-decoration: none;
+
+    
+    background-color: #232938;
     color: #E5E6EE;
     text-align: center;
     
