@@ -43,7 +43,7 @@ h1 {
     font-family: "IM Fell French Canon SC", MedievalSharp, serif;
     font-size: 50px;
     margin: 5px;
-    padding-left: 10px;
+    padding-left: 50px;
     padding-right: 100px;
     padding-top: 10px;
     color: #E5E6EE;
@@ -55,9 +55,8 @@ h2 {
 h3 {
     font-family: "IM Fell French Canon SC", MedievalSharp, serif;
     font-size: 50px;
-    margin: 5px;
-    padding-left: 10px;
-    padding-right: 100px;
+    margin: 0 auto;
+    text-align: center;
     padding-top: 100px;
     padding-bottom: 50px;
     color: #232938;
@@ -122,14 +121,14 @@ nav a:hover {
     justify-items: center;
 }
 .chara-grid {
-    height: 500px;
+    height: 700px;
     width: 1000px; 
     margin: 20px auto; 
     font-family: Lato, Helvetica, sans-serif; 
     border: 1px solid black;
     background-color: #232938;
     padding: 15px;
-    overflow-y: hidden;
+    overflow-y: auto;
     overflow-x: scroll;
     white-space: nowrap;
     clear: both;
@@ -141,12 +140,25 @@ nav a:hover {
     grid-column: 2/4;
     width: 70%;
 }
+.chara-grid .chara-card-a {
+    display: inline-block;
+    width: 35%;
+    padding: 20px;
+    margin-top: 1px;
+    margin: 0 auto;
+    text-align: center;
+}
 .chara-card-a {
     display: inline-block;
-    width: 25%;
+    width: 50%;
     padding: 20px;
     margin: 0 auto;
     text-align: center;
+}
+
+.chara-card-a p {
+    white-space: initial;
+    font-weight: lighter;
 }
 h4, h5 {
     font-family: Lato, Helvetica, sans-serif;
@@ -161,19 +173,20 @@ h5 {
     line-height: 1em;
     padding-top: 5px;
 }
-
-.location-card{
-    grid-column: 4/6;
-    width: 70%;
+.locate-grid {
+    height: 500px;
+    width: 1000px; 
+    margin: 0px auto; 
+    font-family: Lato, Helvetica, sans-serif; 
+    border: 1px solid black;
+    background-color: #232938;
+    padding: 15px;
+    overflow:auto;
+    white-space: nowrap;
+    clear: both;
 }
-.location-card1{
-    grid-row: 2/4;
+.location-card {
     grid-column: 4/6;
-    width: 70%;
-}
-.location-card2{
-    grid-row: 2/4;
-    grid-column: 7/9;
     width: 70%;
 }
 .location-card-a{
@@ -182,6 +195,12 @@ h5 {
     width: 50%;
     text-align: center;
     padding: 30px 30px;
+}
+.location-card-a p{
+    width: 95%;
+    text-align: center;
+    font-size: 10px;
+    white-space: initial;
 }
 
 .card-img {
@@ -280,14 +299,19 @@ footer .social img {
         margin: 50px auto;
         width: 60%;
     }
-
-    .chara-grid {
-        height: 340px;
-        width: 485px;
+    .chara-card-a {
+        display: block;
     }
-    .chara-card-a, .location-card-a { 
-        margin: 50px auto;
-        width: 40%;
+    .chara-grid .chara-card-a {
+        display: inline-block;
+    }
+    .locate-grid .location-card-a {
+        width: 70%;
+    }
+
+    .chara-grid, .locate-grid {
+        height: 340px;
+        width: 70%;
     }
     #background {
         display: none;
