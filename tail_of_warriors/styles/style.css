@@ -277,6 +277,7 @@ footer .social img {
     nav a {
         display: block;
         padding: 15px;
+        padding-left: 1px;
     }
     #title {
         margin-top: 0;
@@ -291,10 +292,15 @@ footer .social img {
         font-size: 25px;
         color: #E5E6EE;
         padding-right: 30px;
+        padding-left: 10px;
     }
     h2 {
         font-size: 25px;
     }
+    .logo {
+        padding-left: 10px;
+    }
+
     .chara-card, .location-card { 
         margin: 50px auto;
         width: 60%;

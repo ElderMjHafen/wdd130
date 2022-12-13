@@ -277,6 +277,8 @@ h3 {
     height: 400px;
     justify-content: center;
     justify-items: center;
+    margin-bottom: 100px;
+    padding-bottom: 90px;
 }
 .salmon_river h2 {
     line-height: 1em;
@@ -352,7 +354,7 @@ h3 {
     box-shadow: 5px 5px 10px #6f7364;
     opacity: 0.825;
     width: 440px;
-    height: 400px;
+    height: 350px;
     justify-content: center;
     justify-items: center;
 }
@@ -371,7 +373,7 @@ h3 {
 .grand_map {
     grid-column: 3/4;
     grid-row: 3/4;
-    width: 50px;
+    width: 50%;
     padding-left: 10px;
 }
 
