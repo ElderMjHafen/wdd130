@@ -155,8 +155,15 @@ nav a:hover {
     margin: 0 auto;
     text-align: center;
 }
+.chara-card-b {
+    display: inline-block;
+    width: 29%;
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center;
+}
 
-.chara-card-a p {
+.chara-card-a p, .chara-card-b p {
     white-space: initial;
     font-weight: lighter;
 }
@@ -168,6 +175,7 @@ h4, h5 {
     text-align: left;
     padding-left: 20px;
 }
+
 h5 {
     font-size: 8px;
     line-height: 1em;
@@ -305,11 +313,23 @@ footer .social img {
         margin: 50px auto;
         width: 60%;
     }
-    .chara-card-a {
+    .chara-card-a, .chara-card-b {
         display: block;
     }
-    .chara-grid .chara-card-a {
-        display: inline-block;
+    .chara-grid .chara-card-a, .chara-grid .chara-card-b {
+        display: block;
+        width: 70%;
+    }
+    .chara-grid .chara-card-b {
+        width: 45%;
+    }
+    .chara-card-a h4, .chara-card-b h4 {
+        white-space: initial;
+        font-weight: bold;
+        font-size: 10px;
+    }
+    .chara-card-a p, .chara-card-b p {
+        font-size: 8px;
     }
     .locate-grid .location-card-a {
         width: 70%;
@@ -318,6 +338,9 @@ footer .social img {
     .chara-grid, .locate-grid {
         height: 340px;
         width: 70%;
+        overflow:auto;
+        white-space: nowrap;
+        clear: both;
     }
     #background {
         display: none;
