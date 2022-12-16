@@ -162,20 +162,26 @@ nav a:hover {
     margin: 0 auto;
     text-align: center;
 }
+.chara-card-c {
+    display: inline-block;
+    width: 34%;
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center;
+}
 
-.chara-card-a p, .chara-card-b p {
+.chara-card-a p, .chara-card-b p, .chara-card-c p {
     white-space: initial;
     font-weight: lighter;
 }
 h4, h5 {
     font-family: Lato, Helvetica, sans-serif;
     color: #E3E5E6;
-    font-size: 15px;
+    font-size: 12px;
     margin: 1px;
     text-align: left;
     padding-left: 20px;
 }
-
 h5 {
     font-size: 8px;
     line-height: 1em;
@@ -313,10 +319,10 @@ footer .social img {
         margin: 50px auto;
         width: 60%;
     }
-    .chara-card-a, .chara-card-b {
+    .chara-card-a, .chara-card-b, .chara-card-c {
         display: block;
     }
-    .chara-grid .chara-card-a, .chara-grid .chara-card-b {
+    .chara-grid .chara-card-a, .chara-grid .chara-card-b, .chara-grid .chara-card-c {
         display: block;
         width: 70%;
     }
